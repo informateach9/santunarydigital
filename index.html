@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kamus Santun Virtual</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'primary': {
+                'light': '#22c55e', // green-500
+                'dark': '#4ade80'   // green-400
+              },
+              'secondary': {
+                'light': '#f59e0b', // amber-500
+                'dark': '#fcd34d'   // amber-300
+              },
+              'background': {
+                'light': '#f8fafc', // slate-50
+                'dark': '#1e293b'   // slate-800
+              },
+              'surface': {
+                'light': '#ffffff', // white
+                'dark': '#334155'   // slate-700
+              },
+              'text-primary': {
+                'light': '#1e293b', // slate-800
+                'dark': '#f1f5f9'   // slate-100
+              },
+              'text-secondary': {
+                'light': '#64748b', // slate-500
+                'dark': '#94a3b8'   // slate-400
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.16.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

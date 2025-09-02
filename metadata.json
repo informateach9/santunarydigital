@@ -1,0 +1,7 @@
+{
+  "name": "Kamus Santun Digital",
+  "description": "An application to find polite, Islamic-friendly alternatives to harsh language, promoting better digital communication among young Muslims.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
